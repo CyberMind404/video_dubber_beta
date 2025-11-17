@@ -1,0 +1,12 @@
+PyQt6>=6.5
+requests>=2.28
+openai-whisper @ git+https://github.com/openai/whisper.git
+edge-tts>=6.1
+simpleaudio>=1.0.4
+asyncio ; python_version<'3.11'
+# ffmpeg سيتم تثبيته تلقائيًا عند أول تشغيل
+# إذا أردت التعامل مع ffmpeg من بايثون يمكنك إضافة ffmpeg-python
+ffmpeg-python>=0.2.0
+langdetect
+speechbrain
+torch
